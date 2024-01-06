@@ -116,5 +116,10 @@ main{
 }
 .abt-info{
     text-align: center;
-    
+}
+#WID{
+    padding: 30px 150px;
+}
+.skl-cont{
+    display: flex;
 }
