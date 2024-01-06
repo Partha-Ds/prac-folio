@@ -17,13 +17,14 @@ body {
     padding: 15px 35px;
 }
 
-.sec-title{
+.sec-title {
     color: #181818;
     text-align: center;
     font-size: 35px;
     font-weight: 700;
 }
-.sec-des{
+
+.sec-des {
     color: #757575;
     text-align: center;
     font-size: 18px;
@@ -74,7 +75,7 @@ nav a {
     justify-content: space-between;
 }
 
-.bnr-cnt{
+.bnr-cnt {
     max-width: 500px;
 }
 
@@ -97,29 +98,58 @@ nav a {
 
 /* main section style */
 
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
 
+main section {
+    margin-top: 130px;
+}
+
 /* about section style */
 
-.about{
+.about {
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0px;
 }
-.abt-inf-cont{
+
+.abt-inf-cont {
     display: flex;
     justify-content: space-around;
 }
-.abt-info{
+
+.abt-info {
     text-align: center;
 }
-#WID{
+
+/* what i do related styles */
+
+#WID {
     padding: 30px 150px;
 }
-.skl-cont{
+
+.skl-cont {
     display: flex;
+    gap: 24px;
+}
+
+.skl {
+    padding: 30px;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skl-des {
+    color: #757575;
+}
+
+/* resume section styles */
+.rsm-clm-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
 }
