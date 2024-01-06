@@ -97,6 +97,11 @@ nav a {
 
 /* main section style */
 
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 /* about section style */
 
 .about{
@@ -104,4 +109,12 @@ nav a {
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0px;
+}
+.abt-inf-cont{
+    display: flex;
+    justify-content: space-around;
+}
+.abt-info{
+    text-align: center;
+    
 }
